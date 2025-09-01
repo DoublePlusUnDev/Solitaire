@@ -1,0 +1,36 @@
+# Compiled files
+*.exe
+*.o
+*.out
+
+#build dirs
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+
+# Log files
+solitaire-log.txt
+
+# User data
+solitaire-leaderboard.txt
+
+# Editor-specific files
+.vscode/
+.idea/
+
+#OS Specific
+*.swp      # vim swap files
+*.DS_Store # macOS
+Thumbs.db  # Windows
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Dependency graph output
+_graph.txt
